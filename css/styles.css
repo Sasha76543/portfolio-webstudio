@@ -72,7 +72,7 @@ body {
 
   color: #212121;
 }
-nav a::after {
+.menu a::after {
   content: "";
   position: absolute;
   top: 32px;
@@ -99,8 +99,22 @@ nav a::after {
 
   color: #212121;
 }
-nav a:hover::after {
+.menu a:hover::after {
   width: 100%;
+}
+.nume a::after {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 40.34px;
+  height: 100%;
+
+  height: 4px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #2196f3;
+  transition: all 0.5s;
 }
 
 .put {
